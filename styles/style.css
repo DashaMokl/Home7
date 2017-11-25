@@ -1,0 +1,399 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+ul {
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.container li { /*it's for each li element in this file*/
+    list-style: none;
+}
+
+header div.container li {/*header begins here*/
+    display: inline-block;
+}
+
+header ul a {
+    color: #31353e;
+    padding: 0 25px;
+    transition-duration: 0.5s;
+}
+
+header ul a:hover {
+    background-color: #dd4b2b;
+    border-radius: 40px;
+    padding: 17px 25px;
+    color: #edeff1;
+}
+
+header div.clearfix ul {
+    float: right;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    padding: 45px 20px 0 0;
+}
+
+nav img.logo {
+    padding: 50px 0 45px 20px;
+}/*header finishes here*/
+
+.representation { /*section with a big photo on a background begins here*/
+    position: relative;
+}
+
+.representation div.main-in-a-representation { /*in order to put the div on a picture*/
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+img.in-a-cafe {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.representation h1, .representation span, .representation h5, .representation p {
+    color: #ffffff;
+}
+
+.representation h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.representation span, .representation h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.representation p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.representation ul.clearfix li {
+    width: 33.33%;
+    float: left;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.representation h5 {
+    margin: 0;
+}
+
+.representation ul.list img {
+    margin: 100px 0 36px 0;
+    transition-duration: 0.5s;
+}
+
+.representation a {
+    display: inline-block;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 35px;
+    padding: 19px 60px;
+    font-size: 18px;
+    color: #612316;
+    transition-duration: 0.5s;
+}
+
+.representation a:hover, .representation ul.list img:hover {
+    transition-duration: 0.5s;
+    opacity: 0.7;
+}/*section with a big photo on a background finishes here*/
+
+.news {/*section about the news starts here*/
+    background-color: #edeff1;
+    padding-bottom: 80px;
+}
+
+.news div.container h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: #31353e;
+    margin-top: 0;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.news ul.clearfix li {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.news ul.the-option-of-different-dishes h5, .news ul.the-option-of-different-dishes p {
+    color: #31353e;
+}
+
+.news ul.the-option-of-different-dishes h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.news ul.the-option-of-different-dishes p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0 30px;
+    margin-bottom: 0;
+}
+
+.news a {
+    display: inline-block;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #4e5159;
+    background-color: #ffffff;
+    padding: 20px 50px;
+    border-radius: 35px;
+    transition-duration: 0.5s;
+}
+
+.news img {
+    width: 100%;
+    transition-duration: 0.5s;
+}
+
+.news a:hover, .news img:hover {
+    transition-duration: 0.5s;
+    opacity: 0.7;
+} /*section about the news finishes here*/
+
+/*section about newsletter begins here*/
+.newsletter {
+    position: relative;
+}
+
+.main-newsletter { /*in order to put the container on the section*/
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.newsletter img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.newsletter div.container h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.newsletter div.container p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    margin: 0;
+    white-space: pre-line; /*in order to split the paragraph into two lines*/
+    line-height: 1.5;
+}
+
+.newsletter div.container li {
+    display: inline-block;
+}
+
+.newsletter div.container form {
+    margin-top: 20px;
+}
+
+.newsletter div.container input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: none;
+    border: none;
+    border-radius: 35px;
+    padding: 20px 30px;
+}
+
+.newsletter div.container ul { /*in order to make a background for inputs*/
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 35px;
+    border: 1px solid #ffffff;
+}
+
+.newsletter #email, .newsletter #submit {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+::-moz-placeholder {
+    color: #ffffff;
+}
+
+.newsletter #submit {
+    color: #612316;
+    background-color: #ffffff;
+    padding: 20px 70px;
+    transition-duration: 0.5s;
+}
+
+.newsletter #submit:hover {
+    transition-duration: 0.5s;
+    opacity: 0.7;
+}/*section about newsletter finishes here*/
+
+.description {/*section about the product details begins here*/
+    background-color: #ffffff;
+}
+
+.description ul.clearfix li {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.description ul {
+    margin: 0;
+    padding: 40px 0;
+}
+
+.description .list-bottom li:nth-of-type(2), .description .list-top li:nth-of-type(1) {
+    padding: 0 20px;
+}
+
+.description img {
+    width: 100%;
+}
+
+.description h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: #191b29;
+    margin-bottom: 0;
+}
+
+.description p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #191b29;
+    line-height: 1.5;
+}
+
+.description p:nth-of-type(2) {
+    padding-bottom: 45px;
+}
+
+.description a.sign-up-1, .description a.sign-up-2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 17px 70px;
+    border-radius: 35px;
+    transition-duration: 0.5s;
+}
+
+.description a.sign-up-1 {
+    background-color: #dd4b2b;
+}
+
+.description a.sign-up-2 {
+    background-color: #4b4e73;
+}
+
+.description a:hover {
+    transition-duration: 0.5s;
+    opacity: 0.7;
+}/*section about the product details finishes here*/
+
+
+.a-list-of-links {/*section with a list of links begins here*/
+    background-color: #d75d0e;
+    padding: 70px 0 80px 0;
+}
+
+.a-list-of-links div.clearfix ul {
+    width: 33.33%;
+    float: left;
+}
+
+.a-list-of-links li {
+    line-height: 1.5;
+    text-align: center;
+}
+
+.a-list-of-links a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    transition-duration: 0.5s;
+}
+
+.a-list-of-links a:hover {
+    transition-duration: 0.5s;
+    opacity: 0.7;
+}/*section with a list of links finishes here*/
+
+footer {
+    position: relative;
+}
+
+.tool-for-designers {
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+footer img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.tool-for-designers div.container p, .tool-for-designers div.container span {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.tool-for-designers div.container a {
+    font-weight: 700;
+    color: #ffffff;
+    transition-duration: 0.5s;
+}
+
+.tool-for-designers div.container a:hover {
+    transition-duration: 0.5s;
+    opacity: 0.7;
+}
